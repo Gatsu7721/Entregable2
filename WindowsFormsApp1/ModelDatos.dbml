@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BDPRUEBAS" Class="ModelDatosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.1.9;Initial Catalog=BDPRUEBAS;Persist Security Info=True;User ID=sa" SettingsObjectName="WindowsFormsApp1.Properties.Settings" SettingsPropertyName="BDPRUEBASConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tb_Prueba" Member="Tb_Prueba">
+    <Type Name="Tb_Prueba">
+      <Column Name="idPrueba" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="apellido" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="dni" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
